@@ -1,6 +1,6 @@
 # Claude Coding Standards
 
-Modular, AI-loadable coding standards for Claude. Each document covers one concern so Claude loads only what a task needs — not the whole corpus. Most of these standards are from [A Philosophy of Software Design by Joh. Ousterhout](https://web.stanford.edu/~ouster/cgi-bin/aposd2ndEdExtract.pdf).
+Modular, AI-loadable coding standards for Claude. Each document covers one concern so Claude loads only what a task needs — not the whole corpus. Most of these standards are from [A Philosophy of Software Design by John. Ousterhout](https://web.stanford.edu/~ouster/cgi-bin/aposd2ndEdExtract.pdf).
 
 ## How it works
 
