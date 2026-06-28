@@ -1,6 +1,6 @@
 # Claude Coding Standards
 
-Modular, AI-loadable coding standards for Claude. Each document covers one concern so Claude loads only what a task needs — not the whole corpus.
+Modular, AI-loadable coding standards for Claude. Each document covers one concern so Claude loads only what a task needs — not the whole corpus. Most of these standards are from [A Philosophy of Software Design by Joh. Ousterhout](https://web.stanford.edu/~ouster/cgi-bin/aposd2ndEdExtract.pdf).
 
 ## How it works
 
@@ -18,18 +18,18 @@ This symlinks `coding-standards/` into `~/.claude/coding-standards/` and either 
 
 ## The standards
 
-| Document | Concern |
-|---|---|
+| Document                             | Concern                                                                                         |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------- |
 | `complexity-and-strategic-design.md` | Root philosophy: minimize complexity, strategic vs. tactical, every element must pay for itself |
-| `modules-and-interfaces.md` | Deep modules, simple interfaces, common-case-simple, when to combine or separate |
-| `information-hiding.md` | Encapsulating decisions, avoiding leakage, not exposing internal state |
-| `special-cases-and-control-flow.md` | Eliminating special cases, common-case code that handles edges naturally |
-| `errors-and-exceptions.md` | Define errors out of existence, exception masking and aggregation |
-| `naming.md` | Precision, consistency, accurate mental image, avoid padding |
-| `comments-and-documentation.md` | When and what to comment, comments-first, documenting abstractions |
-| `evolving-code.md` | Changing code as if designed that way from the start, leave-it-better |
-| `testing.md` | Unit-test coverage, tests-first for bug fixes, testing behavior not implementation |
-| `performance.md` | Measure before optimizing, baselines, target the critical path |
+| `modules-and-interfaces.md`          | Deep modules, simple interfaces, common-case-simple, when to combine or separate                |
+| `information-hiding.md`              | Encapsulating decisions, avoiding leakage, not exposing internal state                          |
+| `special-cases-and-control-flow.md`  | Eliminating special cases, common-case code that handles edges naturally                        |
+| `errors-and-exceptions.md`           | Define errors out of existence, exception masking and aggregation                               |
+| `naming.md`                          | Precision, consistency, accurate mental image, avoid padding                                    |
+| `comments-and-documentation.md`      | When and what to comment, comments-first, documenting abstractions                              |
+| `evolving-code.md`                   | Changing code as if designed that way from the start, leave-it-better                           |
+| `testing.md`                         | Unit-test coverage, tests-first for bug fixes, testing behavior not implementation              |
+| `performance.md`                     | Measure before optimizing, baselines, target the critical path                                  |
 
 See `coding-standards/README.md` for the full index, how the concerns relate, and the routing table Claude uses to match tasks to docs.
 
